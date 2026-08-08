@@ -2,11 +2,72 @@
 <html lang="vi">
 <head>
     <meta charset="UTF-8">
-    <title>Portfolio - Pham Thi Van Anh</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phạm Thị Vân Anh | Personal Portfolio</title>
+    <style>
+        :root { --primary: #0056b3; --dark: #1e293b; --light: #f8fafc; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; line-height: 1.6; color: var(--dark); background: var(--light); }
+        header { background: var(--dark); color: white; padding: 60px 20px; text-align: center; }
+        header h1 { margin: 0; font-size: 2.5rem; }
+        header p { font-size: 1.2rem; opacity: 0.9; }
+        .container { max-width: 1000px; margin: auto; padding: 20px; }
+        section { background: white; padding: 30px; margin-bottom: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.05); }
+        h2 { color: var(--primary); border-bottom: 2px solid var(--primary); padding-bottom: 8px; }
+        .tag { background: #e2e8f0; padding: 4px 10px; border-radius: 15px; font-size: 0.9rem; display: inline-block; margin-right: 5px; }
+        .btn { display: inline-block; background: var(--primary); color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none; margin-top: 10px; }
+        footer { text-align: center; padding: 20px; font-size: 0.9rem; color: #64748b; }
+    </style>
 </head>
 <body>
-    <h1>Xin chào! Mình là Vân Anh </h1>
-    <p>Business Analytics Student | Data & Operations Analyst</p>
-    <p>Chào mừng bạn đến với website cá nhân của mình!</p>
+
+<header>
+    <h1>PHẠM THỊ VÂN ANH</h1>
+    <p>Business Analytics Student @ HUST | Data & Operations Analyst | Runner</p>
+    <a href="#contact" class="btn">Liên Hệ</a>
+    <a href="CV_PhamThiVanAnh.pdf" class="btn" style="background:#475569" target="_blank">Tải CV (PDF)</a>
+</header>
+
+<div class="container">
+    <section id="about">
+        <h2>Giới Thiệu</h2>
+        <p>Sinh viên năm 3 chuyên ngành Phân tích kinh doanh tại Đại học Bách khoa Hà Nội. Đạt danh hiệu <b>Sinh viên 5 Tốt</b> cấp Đại học và là đồng tác giả bài báo NCKH quốc tế xuất bản trên <b>Springer</b>. Đam mê ứng dụng dữ liệu, tư duy quy trình và tối ưu hóa vận hành vào thực tế.</p>
+    </section>
+
+    <section id="research">
+        <h2>Nghiên Cứu Khoa Học (Springer)</h2>
+        <h3>When Structure Meets Semantics: A Hybrid Approach to Dynamic Knowledge Graph Completion in Finance</h3>
+        <p><b>Xuất bản:</b> Springer (2026) | <b>Đơn vị:</b> Bách khoa Hà Nội & Agora Intelligence Lab</p>
+        <p>Đề xuất mô hình lai TeIF-LLM giúp tối ưu hóa lọc dữ liệu và dự báo liên kết tài chính, cải thiện chỉ số MRR thêm 8.63%.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Dự Án & Kinh Nghiệm</h2>
+        <h3>1. Healthcare Data Analytics Workshop</h3>
+        <p>Xử lý dữ liệu y tế thô bằng Excel nâng cao, xây dựng Interactive Dashboard trên Tableau phát hiện điểm nghẽn vận hành.</p>
+        
+        <h3>2. Homestay Operations Sandbox</h3>
+        <p>Ứng dụng phân tích dữ liệu, định giá linh hoạt (Dynamic Pricing) và tối ưu hóa sàn OTA cho mô hình Homestay gia đình tại Ninh Bình.</p>
+    </section>
+
+    <section id="achievements">
+        <h2>Thành Tích & Sức Bền</h2>
+        <ul>
+            <li>🏆 <b>Sinh viên 5 Tốt</b> cấp Đại học Bách khoa Hà Nội</li>
+            <li>🏃‍♀️ <b>21km Half-Marathon Finisher</b> - VnExpress Marathon Hải Phòng</li>
+            <li>🏸 <b>Giải Nhất Cầu lông</b> Đôi nam nữ - Hội thao Sinh viên Bách khoa</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Liên Hệ</h2>
+        <p>Email: <a href="mailto:email@example.com">vananh.hust@gmail.com</a></p>
+        <p>LinkedIn: <a href="#">linkedin.com/in/vananh</a> | GitHub: <a href="#">github.com/vannapahm</a></p>
+    </section>
+</div>
+
+<footer>
+    <p>© 2026 Pham Thi Van Anh. Built with GitHub Pages.</p>
+</footer>
+
 </body>
 </html>
